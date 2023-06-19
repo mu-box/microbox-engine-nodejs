@@ -1,6 +1,6 @@
 # Node.js
 
-This is a Node.js engine for running node apps with [Nanobox](http://nanobox.io).
+This is a Node.js engine for running node apps with [Microbox](http://microbox.cloud).
 
 ## Usage
 To use the Node.js engine, specify `nodejs` as your `engine` in your boxfile.yml
@@ -16,7 +16,7 @@ When [running your app](https://docs.nanboox.io/cli/run/), this engine compiles 
 - `yarn install`
 
 ## Configuration Options
-This engine exposes configuration options through the [Boxfile](http://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox.
+This engine exposes configuration options through the [Boxfile](https://docs.microbox.cloud/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox.
 
 #### Overview of Boxfile Configuration Options
 ```yaml
@@ -80,4 +80,4 @@ run.config:
 ---
 
 ## Help & Support
-This is a generic (non-framework-specific) Node.js engine provided by [Nanobox](http://nanobox.io). If you need help with this engine, you can reach out to us in the [#nanobox IRC channel](http://webchat.freenode.net/?channels=nanobox). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/pagodabox/nanobox-engine-nodejs/issues/new).
+This is a generic (non-framework-specific) Node.js engine provided by [Microbox](http://microbox.cloud). If you need help with this engine, you can reach out to us in the [Microbox Discord](https://discord.gg/MCDdHfy). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-nodejs/issues/new).
